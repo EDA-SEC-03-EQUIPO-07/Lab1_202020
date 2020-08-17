@@ -130,7 +130,7 @@ def countElementsByCriteria(archivo_average, archivo_director, criterio):
     """
     Retorna la cantidad de elementos que cumplen con un criterio para una columna dada
     """
-    return (conteo, round(promedio, 7))
+    return (conteo, promedio)
 
 
 def main():
