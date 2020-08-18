@@ -1,0 +1,32 @@
+Laboratorio 1
+EDA_SEC_03_EQUIPO_07 
+
+1. ¿Qué orden de complejidad tiene la función implementada?
+La función countElementsByCriteria() tiene un orden de complejidad O(n).
+
+2. ¿Cuál es el ciclo regular para actualizar código en un repositorio GIT?
+Los pasos para actualizar código en un repositorio GIT son: 
+1) cada integrante del grupo realiza un clon del repositorio de forma local, 
+2) cada integrante crea una rama en la que actualizará su código, 
+3) cada integrante realiza los cambios deseados en su código y utiliza “commit” para actualizar su rama en GitHub, 
+4) se unifican las ramas de los integrantes al master utilizando “merge” y, 
+5) se solucionan posibles conflictos de versión entre las ramas.
+
+4. ¿Qué ventajas y limitaciones tienen el uso de ramas?
+La ventaja principal del uso de ramas es que le permite a los integrantes de un equipo de desarrollo realizar cambios al repositorio sin afectar el master. 
+De este modo, cada integrante puede trabajar en su propio código sin afectar el de los demás. 
+La principal limitación del uso de ramas ocurre al momento de unificar las ramas en el master usando el merge. 
+Los conflictos de código pueden ser en ocasiones difíciles de resolver.
+
+5. ¿Cuáles serían las buenas prácticas para solucionar conflictos?
+Consideramos que la mejor práctica a la hora de solucionar conflictos al unificar ramas consiste en 
+identificar claramente las lineas de código que entran en conflicto y determinar cuál de las lineas de código cumple mejor la función a realizar.
+
+6. ¿Qué orden de complejidad tendrían las funciones consulta y lectura de archivo?
+Las funciones consulta y lectura de archivos tienen un orden de complejidad O(n)
+
+7. ¿Qué podría reducir o aumentar la complejidad de la consulta?
+La estructura en la que se organizan los datos y su cantidad.
+
+8. ¿Cómo afecta un TAD en la complejidad?
+Dependiendo de la estructura del TAD éste puede incrementar o disminuir la complejidad.
