@@ -153,7 +153,7 @@ def main():
                 else: print("La lista tiene "+str(len(lst1))+" elementos")
             elif int(inputs[0])==3: #opcion 3
                 criteria =input('Ingrese el criterio de búsqueda\n')
-                counter=countElementsFilteredByColumn(criteria, "original_language", lst1) #filtrar una columna por criterio  
+                counter=countElementsFilteredByColumn(criteria, "original_language", lst2) #filtrar una columna por criterio  
                 print("Coinciden ",counter," elementos con el crtierio: ", criteria  )
             elif int(inputs[0])==4: #opcion 4
                 criteria =input('Ingrese el criterio de búsqueda\n')
